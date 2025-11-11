@@ -432,7 +432,7 @@ def retrive_combined_stock_df():
     comb_df = pd.read_sql(query, engine)   
     comb_df['pct_change'] = (comb_df['change'] / comb_df['day_price'])*100
     # print(comb_df.head())
-    comb_df.to_csv('asdfa.csv')
+    # comb_df.to_csv('asdfa.csv')
     return comb_df
 
 def display_homepage(request):
