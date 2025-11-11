@@ -14,7 +14,7 @@ pandas-ta==0.4.71b0
 plotly==6.3.0
 psycopg==3.2.10
 psycopg-binary==3.2.10
-psycopg2==2.9.10
+# psycopg2==2.9.10
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.1
 pytz==2025.2
