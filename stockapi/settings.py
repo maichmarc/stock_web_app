@@ -15,6 +15,10 @@ import dj_database_url
 import os
 from dotenv import load_dotenv
 load_dotenv()
+import psycopg
+import sys
+
+sys.modules["psycopg2"] = psycopg
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
