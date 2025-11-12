@@ -1,1 +1,1 @@
-web: gunicorn stockapi.wsgi
+web: gunicorn stockapi.wsgi:application --bind 0.0.0.0:$PORT
