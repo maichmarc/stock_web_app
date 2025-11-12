@@ -12,9 +12,9 @@ packaging==25.0
 pandas==2.3.2
 pandas-ta==0.4.71b0
 plotly==6.3.0
-# psycopg==3.2.10
-# psycopg-binary==3.2.10
-# psycopg2==2.9.10
+psycopg==3.2.10
+psycopg-binary==3.2.10
+psycopg2==2.9.10
 python-dateutil==2.9.0.post0
 python-dotenv==1.2.1
 pytz==2025.2
@@ -27,5 +27,4 @@ typing_extensions==4.15.0
 tzdata==2025.2
 wheel==0.45.1
 gunicorn==23.0.0
-psycopg2==2.9.10
-psycopg2-binary==2.9.11
+
