@@ -93,8 +93,7 @@ WSGI_APPLICATION = "stockapi.wsgi.application"
 
 DATABASES = {
     "default": dj_database_url.config(
-        default=os.environ.get('DATABASE_URL'),
-        engine='django.db.backends.postgresql_psycopg3',
+        default=os.environ.get('DATABASE_URL')
     )        
     }
 
